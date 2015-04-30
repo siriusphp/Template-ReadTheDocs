@@ -30,3 +30,21 @@ pre {
 .wy-nav-content {
     max-width: 100%;
 }
+
+.rst-content ul {
+     list-style: disc;
+     padding: 0 0 0 3em;
+     margin: 1em 0;
+ }
+.rst-content ul li{
+    list-style: disc;
+}
+
+.rst-content ol {
+    list-style: decimal-leading-zero;
+    padding: 0 0 0 3em;
+    margin: 1em 0;
+}
+.rst-content ol li{
+    list-style: decimal-leading-zero;
+}
