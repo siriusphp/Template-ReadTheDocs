@@ -22,3 +22,11 @@ pre {
     background: #fff;
     margin: 1px 0 24px 0;
 }
+
+.wy-menu h4 {
+    margin: 1em 0 0 1.3em;
+    color: #ccc;
+}
+.wy-nav-content {
+    max-width: 100%;
+}
