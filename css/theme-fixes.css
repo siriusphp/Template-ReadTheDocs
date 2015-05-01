@@ -41,10 +41,10 @@ pre {
 }
 
 .rst-content ol {
-    list-style: decimal-leading-zero;
+    list-style: decimal;
     padding: 0 0 0 3em;
     margin: 1em 0;
 }
 .rst-content ol li{
-    list-style: decimal-leading-zero;
+    list-style: decimal;
 }
