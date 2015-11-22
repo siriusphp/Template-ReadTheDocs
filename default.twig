@@ -47,6 +47,10 @@
         {% endif %}
 
         &nbsp;
+
+        {% if paypal is defined %}
+            <a href="{{ paypal }}"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" title="Support this library, donate with PayPal"></a>
+        {% endif %}
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -91,7 +95,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 <script src="{{ baseUrl }}/js/theme.js"></script>
 
-{% if not gacode is empty %}
+{% if gacode is defined %}
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
