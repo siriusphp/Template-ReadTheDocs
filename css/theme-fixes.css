@@ -48,3 +48,6 @@ pre {
 .rst-content ol li{
     list-style: decimal;
 }
+
+table {margin-bottom: 2em;}
+th, td {border: 1px solid #eee; padding: 0.5em; background: #fff}
