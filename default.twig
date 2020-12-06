@@ -68,6 +68,11 @@
         <div class="wy-nav-content">
             <div class="rst-content">
                 <div role="main" class="document">
+                    {% if githubDocsUrl is defined %}
+                    <div class="wy-text-right">
+                        Problems with this page? <a href="{{ githubDocsUrl }}{{currentFile}}">Edit</a>
+                    </div>
+                    {% endif %}
                     {{ content|raw }}
                 </div>
 
