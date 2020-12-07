@@ -14,6 +14,15 @@ $( document ).ready(function() {
     });  
     // Make tables responsive
     $("table.docutils:not(.field-list)").wrap("<div class='wy-table-responsive'></div>");
+    
+    // highlight current menu item
+    jQuery('.wy-menu-vertical a.reference').each(function(idx, el) {
+        var $el = jQuery(el); 
+        $el.toggleClass('active', window.location.pathname == $el.attr('href'));
+    });
+    
+    // Syntax highlighting
+    hljs.initHighlightingOnLoad();
 });
 
 window.SphinxRtdTheme = (function (jquery) {
