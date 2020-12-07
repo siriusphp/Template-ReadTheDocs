@@ -14,9 +14,7 @@ pre > code {
     padding: 0.5em;
     color: #333;
 }
-pre > code.hljs {
-    background: transparent;
-}
+
 pre {
     border: 1px solid #e1e4e5;
     background: #fff;
