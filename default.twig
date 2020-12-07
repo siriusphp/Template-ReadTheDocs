@@ -120,6 +120,10 @@
     $(function () {
         // Syntax highlighting
         hljs.initHighlightingOnLoad();
+        jQuery('.wy-menu-vertical a.reference').each(function(idx, el) {
+            var $el = jQuery(el); 
+            $el.toggleClass('active', window.location.pathname == $el.attr('href'));
+        });
     });
 </script>
 
