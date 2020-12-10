@@ -21,6 +21,11 @@ pre {
     margin: 1px 0 24px 0;
 }
 
+h2, h3, h4, h5 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
 .wy-menu h4 {
     margin: 1em 0 0 1.3em;
     color: #ccc;
@@ -29,10 +34,19 @@ pre {
     max-width: 100%;
 }
 
+.rst-content p {
+    margin-bottom: 1em;
+}
+
+.rst-content blockquote {
+    margin-left: 0;
+    padding-left: 24px;
+    border-left: 5px solid #1a8acc;
+}
 .rst-content ul {
      list-style: disc;
      padding: 0 0 0 3em;
-     margin: 1em 0;
+     margin: 0 0 1em;
  }
 .rst-content ul li{
     list-style: disc;
@@ -41,7 +55,7 @@ pre {
 .rst-content ol {
     list-style: decimal;
     padding: 0 0 0 3em;
-    margin: 1em 0;
+    margin: 0 0 1em;
 }
 .rst-content ol li{
     list-style: decimal;
