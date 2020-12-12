@@ -3,7 +3,7 @@ body {
     line-height: 1.5;
 }
 
-a {
+.rst-content a {
     text-decoration: underline;
     color: #0072ff;
 }
