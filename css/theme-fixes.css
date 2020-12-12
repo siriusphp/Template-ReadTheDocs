@@ -1,6 +1,11 @@
 body {
-    font-family: "Noto Sans JP",,Arial,sans-serif;
+    font-family: "Noto Sans JP",Arial,sans-serif;
     line-height: 1.5;
+}
+
+a {
+    text-decoration: underline;
+    color: #0072ff;
 }
 
 .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
@@ -24,6 +29,11 @@ pre {
     border: 1px solid #e1e4e5;
     background: #fff;
     margin: 1px 0 24px 0;
+}
+
+code, .rst-content tt {
+    font-size: 100%;
+    font-weight: bold;
 }
 
 h2, h3, h4, h5 {
